@@ -8,7 +8,7 @@ interface SignupFormProps {
   onClose: () => void;
 }
 
-const WEBHOOK_URL = 'YOUR_WEBHOOK_URL';
+const WEBHOOK_URL = 'https://hook.eu2.make.com/ulwwlqdhyfg7h2twi8ng8quq76cij2k1';
 const EMAILJS_SERVICE_ID = 'YOUR_EMAILJS_SERVICE_ID';
 const EMAILJS_TEMPLATE_ID = 'YOUR_EMAILJS_TEMPLATE_ID';
 const EMAILJS_PUBLIC_KEY = 'YOUR_EMAILJS_PUBLIC_KEY';
@@ -135,7 +135,7 @@ export function SignupForm({ isOpen, onClose }: SignupFormProps) {
           </div>
           <div>
             <label htmlFor="role" className="block text-sm font-medium text-gray-300 mb-2">
-              Your Role in Company Research
+              Your role in company research
             </label>
             <select
               id="role"
@@ -154,7 +154,7 @@ export function SignupForm({ isOpen, onClose }: SignupFormProps) {
           </div>
           <div>
             <label htmlFor="problems" className="block text-sm font-medium text-gray-300 mb-2">
-              What challenges are you facing with company research?
+              What is the most annoying aspect of doing company research?
             </label>
             <textarea
               id="problems"
