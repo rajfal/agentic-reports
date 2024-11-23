@@ -226,16 +226,16 @@ function App() {
       <section className="container mx-auto px-6 py-24">
         <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl p-12 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Ready to transform your company research?
+            Ready to accelerate your company research and slash your time-to-insight?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Join thousands of professionals who've already upgraded their research workflow.
+            Get relief from the anxiety of manually managing your research workflow.
           </p>
           <button 
             onClick={handleStartFreeTrial}
             className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 rounded-full font-medium transition-colors"
           >
-            Start Free Trial
+            Click here for a free company research profile now!
           </button>
         </div>
       </section>
