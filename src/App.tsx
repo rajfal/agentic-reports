@@ -213,7 +213,7 @@ function App() {
       {/* Social Proof */}
       <section className="bg-slate-900/50 py-16">
         <div className="container mx-auto px-6">
-          <p className="text-center text-gray-400 mb-8">Trusted by leading companies worldwide</p>
+          <p className="text-center text-gray-400 mb-8">Trusted by users like you</p>
           <div className="flex justify-center items-center space-x-12 opacity-50">
             {[1, 2, 3, 4, 5].map((i) => (
               <Building2 key={i} className="w-12 h-12 text-gray-400" />
@@ -226,7 +226,7 @@ function App() {
       <section className="container mx-auto px-6 py-24">
         <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl p-12 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Ready to accelerate your company research and slash your time-to-insight?
+            Ready to accelerate your company research and cut your time-to-insight?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
             Get relief from the anxiety of manually managing your research workflow.
@@ -235,7 +235,7 @@ function App() {
             onClick={handleStartFreeTrial}
             className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 rounded-full font-medium transition-colors"
           >
-            Click here for a free company research profile now!
+            Click now for a free company profile!
           </button>
         </div>
       </section>
