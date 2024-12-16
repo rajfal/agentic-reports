@@ -8,7 +8,7 @@ interface SignupFormProps {
   onClose: () => void;
 }
 
-const WEBHOOK_URL = 'https://hook.eu2.make.com/ulwwlqdhyfg7h2twi8ng8quq76cij2k1';
+const WEBHOOK_URL = 'https://hook.eu2.make.com/85chhzvp5hw82pog7a5mbiskghl49mt2';
 const EMAILJS_SERVICE_ID = 'service_92pbo2r';
 const EMAILJS_TEMPLATE_ID = 'template_y7iyxrr';
 const EMAILJS_PUBLIC_KEY = 'LG8Aekz4UdwGHqsJw';
